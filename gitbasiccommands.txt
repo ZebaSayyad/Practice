@@ -1,0 +1,168 @@
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo
+$ git init
+Initialized empty Git repository in D:/java_workspace2/GitDemo/.git/
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git config --global user.name "ZebaSayyad"
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git config --global user.email "s.zebatanveer@gmail.com"
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git remote add origin https://github.com/ZebaSayyad/GitDemoPrac.git
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git remote add origin https://github.com/ZebaSayyad/GitDemoPrac.git
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add  .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/Hello.class
+        new file:   src/Hello.java
+
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/Hello.class
+        new file:   src/Hello.java
+
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git commit -m "my first commit"
+[master (root-commit) 1495701] my first commit
+ 5 files changed, 45 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/Hello.class
+ create mode 100644 src/Hello.java
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 1.49 KiB | 169.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/ZebaSayyad/GitDemoPrac.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   bin/Hello.class
+        modified:   src/Hello.java
+
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git commit -m^C
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git commit -m "my second commit"
+[master 77ff491] my second commit
+ 2 files changed, 2 insertions(+)
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 580 bytes | 145.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ZebaSayyad/GitDemoPrac.git
+   1495701..77ff491  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git add .
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$ git commit -m "developer2 changes"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/GitDemo (master)
+$

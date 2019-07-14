@@ -1,0 +1,24 @@
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/dev2
+$ git clone https://github.com/ZebaSayyad/GitDemoPrac.git
+Cloning into 'GitDemoPrac'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 16 (delta 3), reused 16 (delta 3), pack-reused 0
+Unpacking objects: 100% (16/16), done.
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/dev2
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/dev2
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+PC@DESKTOP-UCGL7D2 MINGW64 /d/java_workspace2/dev2
+$
+
+
+
+

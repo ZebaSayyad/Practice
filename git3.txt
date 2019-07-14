@@ -1,0 +1,8 @@
+Distributed SCM(source code management) system:
+1-everyone will have a complete copy of all history of the project
+- master:main record
+
+svn
+bitbucket
+cvn
+
